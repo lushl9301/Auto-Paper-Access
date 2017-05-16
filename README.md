@@ -1,16 +1,16 @@
-# Non-Click-NUS-Library-Proxy
-A simple script run on Tampermonkey. You can easily access IEEE Xplore, ACM Digital Library, etc without clicking proxy bookmarklet provided by NUS
+# Auto-Paper-Access
+A simple script runs on Tampermonkey. You can easily access IEEE Xplore, ACM Digital Library, etc without clicking proxy bookmarklet provided by universities.
 
 ### Usage
 1. Install [Tampermonkey](https://tampermonkey.net/) plugin for your web browsers.
 
-2. Install this script from https://openuserjs.org/scripts/lushl9301/Non-Click_NUS_Library_Proxy by simply click *install*
+2. Install this script from https://openuserjs.org/scripts/lushl9301/Auto_Paper_Access by simply click *install*
 
-3. Try the following papers from ACM DL and IEEE Xplore:
+3. Done! And you can try the following papers from ACM DL and IEEE Xplore:
 
     [Mars: a MapReduce framework on graphics processors](http://dl.acm.org/citation.cfm?id=1454152&CFID=727506701&CFTOKEN=12709622)
 
-    [Multikernel Data Partitioning With Channel on OpenCL-Based FPGAs](http://ieeexplore.ieee.org.libproxy1.nus.edu.sg/document/7857086/)
+    [Multikernel Data Partitioning With Channel on OpenCL-Based FPGAs](http://ieeexplore.ieee.org/document/7857086/)
 
 ### Supported Universities
 * National University of Singapore
