@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         Non-Click NUS Library Proxy
-// @namespace    http://tampermonkey.net/
+// @updateURL    https://openuserjs.org/meta/lushl9301/My_Script.meta.js
+// @copyright    2017, lushl9301 (https://github.com/lushl9301)
 // @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @description  A simple script run on Tampermonkey. You can easily access IEEE Xplore, ACM Digital Library, etc without clicking proxy bookmarklet provided by NUS
+// @author       lushl9301
+// @license      MIT
 // @match        http://www.sciencedirect.com/science/article/pii/*
 // @match        http://ieeexplore.ieee.org/document/*
 // @match        http://dl.acm.org/*
