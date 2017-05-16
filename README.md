@@ -12,7 +12,15 @@ A simple script run on Tampermonkey. You can easily access IEEE Xplore, ACM Digi
 
     [Multikernel Data Partitioning With Channel on OpenCL-Based FPGAs](http://ieeexplore.ieee.org.libproxy1.nus.edu.sg/document/7857086/)
 
+### Supported Universities
+* National University of Singapore
+* Nanyang Technological University, Singapore
+
 ### Known Issues
 * Need to allow unsafe javascript execution on https://link.springer.com
 
 * Need to remove [//@run-at document-start](https://github.com/lushl9301/Non-Click-NUS-Library-Proxy/blob/master/Non-Click.user.js#L9) for https://link.springer.com
+
+### Contributor
+* [lushl9301](https://github.com/lushl9301), National University of Singapore
+* [koallen](https://github.com/koallen), Nanyang Technological University, Singapore
