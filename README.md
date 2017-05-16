@@ -8,9 +8,9 @@ A simple script run on Tampermonkey. You can easily access IEEE Xplore, ACM Digi
 
 3. Try the following papers from ACM DL and IEEE Xplore:
 
-[Mars: a MapReduce framework on graphics processors](http://dl.acm.org/citation.cfm?id=1454152&CFID=727506701&CFTOKEN=12709622)
+    [Mars: a MapReduce framework on graphics processors](http://dl.acm.org/citation.cfm?id=1454152&CFID=727506701&CFTOKEN=12709622)
 
-[Multikernel Data Partitioning With Channel on OpenCL-Based FPGAs](http://ieeexplore.ieee.org.libproxy1.nus.edu.sg/document/7857086/)
+    [Multikernel Data Partitioning With Channel on OpenCL-Based FPGAs](http://ieeexplore.ieee.org.libproxy1.nus.edu.sg/document/7857086/)
 
 ### Known Issues
 * Need to allow unsafe javascript execution on https://link.springer.com
