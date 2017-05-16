@@ -7,11 +7,11 @@
 // @author       lushl9301
 // @license      MIT
 // @run-at       document-start
-// @grant        unsafeWindow
-// @match        *www.sciencedirect.com/science/article/pii/*
-// @match        *ieeexplore.ieee.org/document/*
-// @match        *dl.acm.org/*
-// @match        *.springer.com/*
+// @grant        none
+// @match        http://www.sciencedirect.com/science/article/pii/*
+// @match        http://ieeexplore.ieee.org/document/*
+// @match        http://dl.acm.org/*
+// @match        https://*.springer.com/*
 
 
 // @grant        none
