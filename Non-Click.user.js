@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Auto paper access
+// @name         Auto Paper Access
 // @updateURL    https://openuserjs.org/meta/lushl9301/My_Script.meta.js
 // @copyright    2017, lushl9301 (https://github.com/lushl9301)
 // @version      0.2
