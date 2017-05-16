@@ -6,9 +6,12 @@
 // @description  A simple script run on Tampermonkey. You can easily access IEEE Xplore, ACM Digital Library, etc without clicking proxy bookmarklet provided by NUS
 // @author       lushl9301
 // @license      MIT
-// @match        http://www.sciencedirect.com/science/article/pii/*
-// @match        http://ieeexplore.ieee.org/document/*
-// @match        http://dl.acm.org/*
+// @run-at       document-start
+// @match        *www.sciencedirect.com/science/article/pii/*
+// @match        *ieeexplore.ieee.org/document/*
+// @match        *dl.acm.org/*
+// @match        *.springer.com/*
+
 
 // @grant        none
 // ==/UserScript==
