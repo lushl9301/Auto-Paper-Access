@@ -19,7 +19,7 @@ A simple script runs on Tampermonkey. You can easily access IEEE Xplore, ACM Dig
 ### Known Issues
 * Need to allow unsafe javascript execution on https://link.springer.com
 
-* Need to remove [//@run-at document-start](https://github.com/lushl9301/Non-Click-NUS-Library-Proxy/blob/master/Non-Click.user.js#L9) for https://link.springer.com
+* You can change // @run-at document-body to // @run-at document-start to accelerate access. But the dialog may not pop up sometimes...
 
 ### Contributor
 * [lushl9301](https://github.com/lushl9301), National University of Singapore
