@@ -1,7 +1,9 @@
 # Auto-Paper-Access
-A simple script runs on Tampermonkey. You can easily access IEEE Xplore, ACM Digital Library, etc without clicking proxy bookmarklet provided by universities.
 
-### Usage
+A simple script runs on Tampermonkey. You can easily access IEEE Xplore, ACM Digital Library, etc without clicking proxy bookmarklet provided by your university.
+
+## Usage
+
 1. Install [Tampermonkey](https://tampermonkey.net/) plugin for your web browsers.
 
 2. Install this script from https://openuserjs.org/scripts/lushl9301/Auto_Paper_Access by simply click *install*
@@ -12,15 +14,17 @@ A simple script runs on Tampermonkey. You can easily access IEEE Xplore, ACM Dig
 
     [Multikernel Data Partitioning With Channel on OpenCL-Based FPGAs](http://ieeexplore.ieee.org/document/7857086/)
 
-### Supported Universities
+## Supported Universities
+
 * National University of Singapore
 * Nanyang Technological University, Singapore
 
-### Known Issues
-* Need to allow unsafe javascript execution on https://link.springer.com
+## Known Issues
 
+* Need to allow unsafe javascript execution on https://link.springer.com
 * You can change // @run-at document-body to // @run-at document-start to accelerate access. But the dialog may not pop up sometimes...
 
-### Contributor
+## Contributor
+
 * [lushl9301](https://github.com/lushl9301), National University of Singapore
 * [koallen](https://github.com/koallen), Nanyang Technological University, Singapore

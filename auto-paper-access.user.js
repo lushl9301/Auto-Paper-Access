@@ -2,7 +2,7 @@
 // @name         Auto Paper Access
 // @updateURL    https://openuserjs.org/meta/lushl9301/Auto_Paper_Access.meta.js
 // @copyright    2017, lushl9301 (https://github.com/lushl9301)
-// @version      0.3
+// @version      0.4
 // @description  A simple script runs on Tampermonkey. You can easily access IEEE Xplore, ACM Digital Library, etc without clicking proxy bookmarklet provided by universities.
 // @author       lushl9301, koallen
 // @license      MIT
@@ -25,15 +25,15 @@
     GM_config.init(
         {
             'id': 'universityConfig',
-            'title': '',
-            'fields': // Fields object
+            'title': 'Choose your university',
+            'fields':
             {
-                'university': // This is the id of the field
+                'university': // field id
                 {
-                    'label': 'University', // Appears next to field
+                    'label': 'University',
                     'type': 'select',
                     'options': [defaultUniversity, 'Nanyang Technological University', 'National University of Singapore'],
-                    'default': defaultUniversity // Default value if user doesn't change it
+                    'default': defaultUniversity
                 }
             },
             'events':
@@ -41,7 +41,13 @@
                 'init': function() {
                     currUniversity = GM_config.get('university');
                 },
-                'open': function(doc) {
+                'open': function() {
+                    // custom layout
+                    var config_ui = this.frame;
+                    config_ui.style.height = '';
+                    config_ui.style.margin = 'auto';
+                    config_ui.style.width = '20%';
+                    config_ui.style.left = '40%';
                     GM_config.fields['university'].node.addEventListener('change', function () {
                         currUniversity = GM_config.fields['university'].toValue();
                     }, false);
@@ -53,12 +59,13 @@
                     if (prevUniversity !== currUniversity)
                         location.reload();
                 }
-            }
+            },
+            'css': '#universityConfig .config_header { font-size: 20px; margin: 0 0 10 0; }'
         });
 
     // display a button to toggle config panel
     var button = document.createElement('button');
-    button.innerHTML = "config";
+    button.innerHTML = "Auto Paper Access";
     button.style = "top:1em;right:1em;position:fixed;z-index: 9999";
     button.setAttribute('type', 'button');
     button.addEventListener('click', function(){GM_config.open();}, false);
