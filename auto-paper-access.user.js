@@ -2,7 +2,7 @@
 // @name         Auto Paper Access
 // @updateURL    https://openuserjs.org/meta/lushl9301/Auto_Paper_Access.meta.js
 // @copyright    2017, lushl9301 (https://github.com/lushl9301)
-// @version      0.5
+// @version      0.6
 // @description  A simple script runs on Tampermonkey. You can easily access IEEE Xplore, ACM Digital Library, etc without clicking proxy bookmarklet provided by universities.
 // @author       lushl9301, koallen
 // @license      MIT
@@ -77,5 +77,6 @@
     else if ("Nanyang Technological University" === currUniversity)
         location.href = "http://ezlibproxy1.ntu.edu.sg/login?url=" + location.href;
     else if ('National University of Singapore' == currUniversity)
-        document.body.appendChild(document.createElement('script')).src='http://lgdata.s3-website-us-east-1.amazonaws.com/docs/1035/217629/proxywithga.js';
+        location.href = "http://libproxy1.nus.edu.sg/login?url=" + location.href;
+        // document.body.appendChild(document.createElement('script')).src='http://lgdata.s3-website-us-east-1.amazonaws.com/docs/1035/217629/proxywithga.js';
 })();
