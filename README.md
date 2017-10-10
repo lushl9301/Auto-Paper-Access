@@ -21,7 +21,7 @@ A simple script runs on Tampermonkey. You can easily access IEEE Xplore, ACM Dig
 
 ## Known Issues
 
-* You can change // @run-at document-body to // @run-at document-start to accelerate access. But the dialog may not pop up sometimes...
+* You can change // @run-at document-body to // @run-at document-start to accelerate access. ~~But the dialog may not pop up sometimes...~~
 
 ## Contributor
 
