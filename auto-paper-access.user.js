@@ -13,7 +13,7 @@
 // @match        *.springer.com/*
 // @match        onlinelibrary.wiley.com/doi/*
 // @match        www.ncbi.nlm.nih.gov/pubmed/*
-// @match        pubsonline.informs.org/dou/*
+// @match        pubsonline.informs.org/*
 // @require      https://openuserjs.org/src/libs/sizzle/GM_config.js
 // @grant        GM_getValue
 // @grant        GM_setValue
