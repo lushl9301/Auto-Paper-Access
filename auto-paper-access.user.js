@@ -13,6 +13,7 @@
 // @match        *.springer.com/*
 // @match        onlinelibrary.wiley.com/doi/*
 // @match        www.ncbi.nlm.nih.gov/pubmed/*
+// @match        epubs.siam.org/*
 // @match        pubsonline.informs.org/*
 // @match        *.ezlibproxy1.ntu.edu.sg/*
 // @require      https://openuserjs.org/src/libs/sizzle/GM_config.js
