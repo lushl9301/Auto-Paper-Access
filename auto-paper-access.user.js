@@ -2,7 +2,7 @@
 // @name         Auto Paper Access
 // @updateURL    https://openuserjs.org/meta/lushl9301/Auto_Paper_Access.meta.js
 // @copyright    2017, lushl9301 (https://github.com/lushl9301)
-// @version      7.1
+// @version      8.0
 // @description  A simple script runs on Tampermonkey. You can easily access IEEE Xplore, ACM Digital Library, etc without clicking proxy bookmarklet provided by universities.
 // @author       lushl9301, koallen
 // @license      MIT
@@ -14,7 +14,7 @@
 // @match        onlinelibrary.wiley.com/doi/*
 // @match        www.ncbi.nlm.nih.gov/pubmed/*
 // @match        epubs.siam.org/*
-// @match        *.nature.com/*
+// @match        www.nature.com/*
 // @match        pubsonline.informs.org/*
 // @match        *.ezlibproxy1.ntu.edu.sg/*
 // @require      https://openuserjs.org/src/libs/sizzle/GM_config.js
